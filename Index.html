@@ -1,12 +1,87 @@
-<Docytype html> Basisstappen erin gezet
-<html> </html>
-<head></head>
+<!DOCTYPE html> Document is gemaakt in HTML
+<html> lang=΅nl΅>  
+<head>
 <title> Ruby </title>
-</head>
-<body></body>
+<style> 
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #B0365A;
+        }
 
-<h1> Over mij </h1>
-<p> Ik ben Ruby, ik ben 16 jaar en zit op het vlietland college en dit is mijn website voor het vak informatica. </p>
+        header {
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        nav {
+            background-color: #C46C82;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        main {
+            display: flex;
+            gap: 60px;
+            padding: 70px;
+        }
+
+        .tekst {
+            width: 50%;
+        }
+
+        .foto {
+            background-color: #F6D9DE;
+            width: 350px;
+            height: 430px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            background-color: #B0365A;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 25px;
+        }
+
+        footer {
+            border-top: 1px solid #F0D3DA;
+            padding: 30px;
+        }
+    </style>
+</head>
+<header> <h1> Ruby </h1> </header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="OverMij.html">Over mij</a>
+    <a href="#contact">Contact</a>
+</nav>
+<main>
+
+    <div class="tekst">
+        <h1>Over mij </h1>
+<p> hallo, ik ben Ruby, ik ben 16 jaar oud en ik maak deze website voor het vak informatica.</p>
+ <button>Lees meer over mij</button>
+    </div>
+
+    <div class="foto">
+        <p>Hier komt mijn foto</p>
+    </div>
+<footer id="contact">
+    <p>Contact: ruby@email.nl</p>
+</footer>
 
 </body>
 </html>
+
