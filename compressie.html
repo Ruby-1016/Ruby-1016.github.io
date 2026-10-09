@@ -28,6 +28,39 @@ body {
             text-decoration: none;
             margin-right: 30px;
         }
+          /* Dropdown styling */
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none; /* Zorgt dat het menu verborgen is */
+            position: absolute;
+            background-color: #C46C82;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1000;
+            top: 100%;
+            left: 0;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            margin-right: 0;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #B0365A;
+        }
+
+        /* Toon het menu ALLEEN als je over .dropdown beweegt met de muis */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
         main {
             display: flex;
@@ -95,8 +128,14 @@ body {
     <a href="kleurmodellen.html">Kleurmodellen</a>
     <a href="binairstelsel.html">Binair stelsel</a>
     <a href="compressie.html">Compressie</a>
-    <a href="ai.html">AI</a>
-      
+      <div class="dropdown">
+        <a href="ai.html" style="margin-right: 0;">AI</a>
+        <div class="dropdown-content">
+            <a href="gebruik-ai.html">gebruik AI</a>
+            <a href="iphone.html">Iphone</a>
+            <a href="ai-artikel.html">AI artikel</a>
+        </div>
+    </div>
    
 </nav>
 <main>
