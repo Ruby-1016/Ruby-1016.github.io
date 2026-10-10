@@ -4,7 +4,7 @@
 <title> Invoer - Verwerking - Uitvoer </title>
 <style> 
 
-body {
+        body {
             margin: 0;
             font-family: Arial, sans-serif;
             color: #B0365A;
@@ -28,7 +28,8 @@ body {
             text-decoration: none;
             margin-right: 30px;
         }
-          /* Dropdown styling */
+
+        /* Dropdown styling */
         .dropdown {
             display: inline-block;
             position: relative;
@@ -36,7 +37,7 @@ body {
         }
 
         .dropdown-content {
-            display: none; /* Zorgt dat het menu verborgen is */
+            display: none;
             position: absolute;
             background-color: #C46C82;
             min-width: 160px;
@@ -58,7 +59,6 @@ body {
             background-color: #B0365A;
         }
 
-        /* Toon het menu ALLEEN als je over .dropdown beweegt met de muis */
         .dropdown:hover .dropdown-content {
             display: block;
         }
@@ -70,16 +70,24 @@ body {
         }
 
         .tekst {
-            width: 40%;
+            width: 50%;
         }
 
-        .foto {
-            background-color: #F6D9DE;
-            width: 350px;
-            height: 430px;
+        .media-kolom {
+            width: 45%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .media-kolom img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .media-kolom a {
+            color: #B0365A;
         }
 
         button {
@@ -89,32 +97,24 @@ body {
             padding: 15px 25px;
             border-radius: 25px;
         }
+
+        footer {
+            border-top: 1px solid #F0D3DA;
+            padding: 30px;
+            margin-top: 40px;
+        }
         
-         h2 {
+        h2, h3, h4, h5 {
             font-size: 35px;
-         }
+            margin-bottom: 10px;
+        }
 
         p {
             font-size: 18px;
-         }
-         h3 {
-            font-size: 35px;
-         }
+            line-height: 1.5;
+        }
 
-        p {
-            font-size: 18px;
-         }
-          h4 {
-            font-size: 35px;
-         }
-
-        p {
-            font-size: 18px;
-         }
-     
-
-        
-    </style>
+</style>
 </head>
 <body>
 <header> <h1> Invoer - Verwerking - Uitvoer </h1> </header>
@@ -123,15 +123,15 @@ body {
     <a href="i.v.u..html">Invoer - Verwerking - Uitvoer</a>
     <a href="kleurmodellen.html">Kleurmodellen</a>
     <a href="binairstelsel.html">Binair stelsel</a>
-     <div class="dropdown">
-        <a href="compressie.html" style="margin-right: 0;">Compressie</a>
+    <div class="dropdown">
+        <a href="compressie.html">Compressie</a>
         <div class="dropdown-content">
-           <a href="lossy-loslesscompressie.html">lossy en lossles compressie</a>
+            <a href="lossy-loslesscompressie.html">lossy en lossles compressie</a>
             <a href="bitmapafbeelding.html">bitmapafbeelding</a>
             <a href="vectorafbeelding.html">vectorafbeelding</a>
         </div>
     </div>
-      <div class="dropdown">
+    <div class="dropdown">
         <a href="ai.html">AI</a>
         <div class="dropdown-content">
             <a href="gebruik-ai.html">gebruik AI</a>
@@ -140,38 +140,39 @@ body {
         </div>
     </div>
 </nav>
+
 <main>
+   
     <div class="tekst">
-        <h2>Invoer </h2>
-        <p>Met de invoer van een laptop wordt bedoeld, alles wat je aan de laptop verteld of geeft
+        <h2>Invoer</h2>
+        <p>Met de invoer van een laptop wordt bedoeld, alles wat je aan de laptop vertelt of geeft.
            De invoer kan van alles betekenen, maar voordat een laptop iets kan doen, moet hij 
            informatie krijgen in de vorm van invoer.</p>
- 
-<h3>Verwerking</h3>
- <p> Na de invoer komt de verwerking. De laptop verwerkt de ontvangen informatie. De laptop maakt in 
-    deze stap berekeningen, beslissingen en voert de opdracht uit. </p>
 
- <h4>Uitvoer</h4>
- <p>De laatste stap is de uitvoer. De uitvoer is het uiteindelijke resultaat van de gegeven opdracht.
-    Bij de uitvoer gaat het om de manier waarop de laptop de opdracht aan jou laat zien. </p>
+        <h3>Verwerking</h3>
+        <p>Na de invoer komt de verwerking. De laptop verwerkt de ontvangen informatie. De laptop maakt in 
+           deze stap berekeningen, beslissingen en voert de opdracht uit.</p>
+
+        <h4>Uitvoer</h4>
+        <p>De laatste stap is de uitvoer. De uitvoer is het uiteindelijke resultaat van de gegeven opdracht.
+           Bij de uitvoer gaat het om de manier waarop de laptop de opdracht aan jou laat zien.</p>
     </div>
 
-<h5>Uitleg filmpje</h5>
-<p>https://www.youtube.com/watch?v=jHjV8XXxSS8, deze link stuurt je door naar een uitleg filmpje over 
-de invoer, verwerking en uitvoer van de computer. Er wordt daarin uitgelegd hoe het werkt en welke apparaten
-voorbeelden ervan zijn. Ik heb deze toegevoegd doordat het makkelijk wordt uitgelegd en ook met verschillende
-voorbeelden wordt uitgelegd waardoor het makkelijker te begrijpen is.
-</p>
+    <div class="media-kolom">
+        <img src="gsv-shopping-and-computer-uthamapalayam-theni-computer-dealers-6vkh5mhms6.avif" alt="invoer-verwerking-uitvoer">
 
-    <img src="gsv-shopping-and-computer-uthamapalayam-theni-computer-dealers-6vkh5mhms6.avif" alt="invoer-verwerking-uitvoer"
-        
-</div>
-<footer id="informatie over mij" 
-
-
+        <div class="filmpje-tekst">
+            <h5>Uitleg filmpje</h5>
+            <p><a href="https://www.youtube.com/watch?v=jHjV8XXxSS8" target="_blank">Bekijk de video op YouTube</a>. Deze link stuurt je door naar een uitlegfilmpje over 
+            de invoer, verwerking en uitvoer van de computer. Er wordt daarin uitgelegd hoe het werkt en welke apparaten
+            voorbeelden ervan zijn. Ik heb deze toegevoegd doordat het makkelijk wordt uitgelegd en ook met verschillende
+            voorbeelden wordt uitgelegd waardoor het makkelijker te begrijpen is.</p>
+        </div>
+    </div>
 </main>
+
+<footer id="informatie-over-mij">
+</footer>
+
 </body>
 </html>
-
-
-
