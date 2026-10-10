@@ -67,9 +67,22 @@ body {
             gap: 60px;
             padding: 70px;
         }
+        .tekst-container {
+            display: flex;
+            gap: 60px;
+        }
 
         .tekst {
             width: 50%;
+        }
+        .foto-container {
+            width: 100%;
+            text-align: center;
+        }
+        .foto-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
 
         .foto {
@@ -140,12 +153,12 @@ body {
    
 </nav>
 <main>
-    <div class="tekst">
+     <div class="tekst-container">
+        <div class="tekst-kolom">
        
 <h2>Lossy compressie</h2>
  <p>Bij lossy compressie wordt informatie uit het originele bestand verwijderd en aangepast, daardoor wordt
-    de omvang van het bestand kleiner.
- </p>
+    de omvang van het bestand kleiner.</p>
 
  <h3>Losless compressie</h3>
  <p>Bij losless compressie wordt de orginele kwaliteit niet beïnvloedt en wordt er ook geen informatie verwijderd.
@@ -160,7 +173,7 @@ In het filmpje worden goed de 2 verschillende soorten compressie uitgelegd. Ze w
 uitgelegd in verschillende situaties om het beter te begrijpen. Daarom kan dit filmpje helpen het beter te begrijpen.</p>
 
 </div>
-
+     <div class="foto-container"></div>
     <img src="lossless-vs-lossy.jpg" alt="compressie"
         
 </div>
