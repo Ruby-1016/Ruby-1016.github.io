@@ -64,21 +64,25 @@ body {
 
         main {
             display: flex;
-            gap: 60px;
+            flex-direction: column;
+            gap: 40px;
             padding: 70px;
         }
+
         .tekst-container {
             display: flex;
             gap: 60px;
         }
 
-        .tekst {
+        .tekst-kolom {
             width: 50%;
         }
+        
         .foto-container {
             width: 100%;
             text-align: center;
         }
+
         .foto-container img {
             max-width: 100%;
             height: auto;
@@ -101,30 +105,29 @@ body {
             padding: 15px 25px;
             border-radius: 25px;
         }
+
         footer {
             border-top: 1px solid #F0D3DA;
             padding: 30px;
             margin-top: 40px;
         }
         
-         h2 {
+        h2 {
             font-size: 35px;
-         }
+        }
 
         p {
             font-size: 18px;
-         }
-         h3 {
-            font-size: 35px;
-         }
+        }
 
-        p {
-            font-size: 18px;
-         }
-        h4 { font-size: 35px; }
-        p { font-size: 18px;}
+        h3 {
+            font-size: 35px;
+        }
+
+        h4 { 
+            font-size: 35px; 
+        }
    
-        
     </style>
 </head>
 <body>
@@ -153,36 +156,36 @@ body {
    
 </nav>
 <main>
-     <div class="tekst-container">
+
+    <div class="tekst-container">
         <div class="tekst-kolom">
-       
-<h2>Lossy compressie</h2>
- <p>Bij lossy compressie wordt informatie uit het originele bestand verwijderd en aangepast, daardoor wordt
-    de omvang van het bestand kleiner.</p>
+            <h2>Lossy compressie</h2>
+            <p>Bij lossy compressie wordt informatie uit het originele bestand verwijderd en aangepast, daardoor wordt
+               de omvang van het bestand kleiner.</p>
 
- <h3>Losless compressie</h3>
- <p>Bij losless compressie wordt de orginele kwaliteit niet beïnvloedt en wordt er ook geen informatie verwijderd.
-    De inhoud van een bestand wordt op een andere manier namelijk neergezet. De computer gaat op zoek naar
-    herhalingen binnen het document en probeert dit zo kort mogelijk op te schrijven. Het verschil met lossy
-    compressie is dat bij losless compressie al de informatie er nog is, alleen bij lossy compressie vaak informatie
-    is verwijderd en je niet het originele document meer kan terugkrijgen.</p>
+            <h3>Lossless compressie</h3>
+            <p>Bij lossless compressie wordt de originele kwaliteit niet beïnvloed en wordt er ook geen informatie verwijderd.
+               De inhoud van een bestand wordt op een andere manier namelijk neergezet. De computer gaat op zoek naar
+               herhalingen binnen het document en probeert dit zo kort mogelijk op te schrijven. Het verschil met lossy
+               compressie is dat bij lossless compressie al de informatie er nog is, alleen bij lossy compressie vaak informatie
+               is verwijderd en je niet het originele document meer kan terugkrijgen.</p>
+        </div>
 
-<div class="tekst-kolom"></div>
-<h4>Uitleg video</h4>
-<p><a href="https://www.youtube.com/watch?v=3AaPj1lYNXI" target="_blank">https://www.youtube.com/watch?v=3AaPj1lYNXI</a>, 
-In het filmpje worden goed de 2 verschillende soorten compressie uitgelegd. Ze worden daarnaast ook
-uitgelegd in verschillende situaties om het beter te begrijpen. Daarom kan dit filmpje helpen het beter te begrijpen.</p>
+        <div class="tekst-kolom">
+            <h4>Uitleg video</h4>
+            <p><a href="https://www.youtube.com/watch?v=3AaPj1lYNXI" target="_blank">https://www.youtube.com/watch?v=3AaPj1lYNXI</a>, 
+               In het filmpje worden goed de 2 verschillende soorten compressie uitgelegd. Ze worden daarnaast ook
+               uitgelegd in verschillende situaties om het beter te begrijpen. Daarom kan dit filmpje helpen het beter te begrijpen.</p>
+        </div>
+    </div>
 
-</div>
-     <div class="foto-container"></div>
-    <img src="lossless-vs-lossy.jpg" alt="compressie"
-        
-</div>
-<footer id="informatie over mij" 
-
-
+    <div class="foto-container">
+        <img src="lossless-vs-lossy.jpg" alt="compressie">
+    </div>
 </main>
+
+<footer id="informatie-over-mij"> 
+</footer>
+
 </body>
 </html>
-
-
